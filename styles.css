@@ -2,14 +2,25 @@ h1 {
     text-align: center;
 }
 
-.section1 {
-    text-align: left;
+.background {
+    background-color:rgb(255, 255, 255);
+    padding:10px 0;
 }
 
-.section2 {
-    text-align: center;
+.ribbon {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;
 }
 
-.section3 {
-    text-align: right;
+.red {
+    background-color:rgb(255,0,0);
+}
+
+.green {
+    background-color:rgb(0,255,0);
+}
+
+.blue {
+    background-color:rgb(0,0,255);
 }
