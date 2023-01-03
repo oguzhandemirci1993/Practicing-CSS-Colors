@@ -1,6 +1,9 @@
 h1 {
     text-align: center;
-    margin: 0 auto;
+    margin-top:0px;
+    margin-bottom:-5px;
+    margin-left:auto;
+    margin-right:auto;
     font-family: Georgia, Helvetica;
 }
 
@@ -77,4 +80,36 @@ h2 {
 
 .rose{
     background-color:rgb(255, 0, 127);
+}
+
+.footer-styling {
+    text-align:center;
+    font-family: Georgia, Helvetica;
+}
+
+.footer-styling h3{
+    font-size: 18px;
+    margin-top:auto
+}
+
+.footer-styling p{
+    font-size: 14px;
+    margin:3px auto;
+}
+
+a {
+    color:darkgreen;
+}
+
+a:visited {
+    color:lightseagreen;
+}
+
+a:hover {
+    color:lightseagreen;
+    ;
+}
+
+a:active {
+    color:white;
 }
