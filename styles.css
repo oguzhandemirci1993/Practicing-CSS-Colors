@@ -119,6 +119,68 @@ h2 {
     font-family: Georgia, Helvetica;
 }
 
+.gradients {
+    background-color:rgb(255,255,255);
+    max-width: 500px;
+    margin:1% auto; 
+}
+
+.gradients p {
+    text-align: center;
+    font-size:14px;
+    color: hsl(0, 0%, 100%);
+    font-family: Georgia, Helvetica;
+}
+
+.green-red {
+    background: linear-gradient(rgb(0,255,0),#f70013);
+}
+
+.green-red-90 {
+    background: linear-gradient(90deg, rgb(0,255,0),#f70013);
+}
+
+.red-blue-green-90 {
+    background: linear-gradient(90deg,hsl(0, 100%, 50%),hsl(240, 100%, 50%),hsl(120, 100%, 50%));
+}
+
+.RGB-90deg-75stop {
+    background: linear-gradient(90deg,hsl(0, 100%, 50%) 75%,hsl(120, 100%, 50%),hsl(240, 100%, 50%));
+    /*RGB name just states red, green and blue. Color values have been entered with HSL codes*/
+    max-width: 200px;
+    margin:1% auto;
+}
+
+.RGB-180deg-60stop {
+    background: linear-gradient(180deg,hsl(0, 100%, 50%) 60%,hsl(120, 100%, 50%),hsl(240, 100%, 50%));
+    /*There is no need for writing 180deg here but I'll write it for exercising purpose anyway.*/
+    max-width: 200px;
+    margin:1% auto;
+}
+
+.RGB-180deg-0-50-100stop {
+    background: linear-gradient(180deg,hsl(0, 100%, 50%) 0%,hsl(120, 100%, 50%) 50%,hsl(240, 100%, 50%) 100%);
+    /*There is no need for writing 0% 50% 100% as stop values here because 
+    they are already default values. I'll write it for exercising purpose 
+    anyway.*/
+    max-width: 200px;
+    margin:1% auto;
+}
+
+.border-shadow-opacity {
+    text-align:center;
+    font-size:14px;
+    font-family: Georgia, Helvetica;
+}
+
+.border-shadow-opacity p {
+
+}
+
+.blue2 {
+    background:linear-gradient(rgb(0,0,100),rgb(0,0,250,0.7),rgb(0,0,100));
+}
+
 .footer-styling {
     text-align:center;
     font-family: Georgia, Helvetica;
