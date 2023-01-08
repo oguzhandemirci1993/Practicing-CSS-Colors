@@ -13,7 +13,9 @@ h2 {
 
 .background-1 {
     background-color:rgb(0,0,0);
-    padding:10px 0;
+    padding:10px 0;  
+    /*The reason why 10px has been written instead of 0px like other 
+    background classes is preventing black background from sticking to h2 elements. */
     max-width: 500px;
     margin:1% auto;
 }  
@@ -27,7 +29,6 @@ h2 {
 
 .background-2 {
     background-color:rgb(255,255,255);
-    padding:0px 0;
     max-width: 500px;
     margin:1% auto;
 }
@@ -94,7 +95,6 @@ h2 {
 
 .background-3 {
     background-color: #f5ff12;
-    padding: 0px 0;
     max-width: 200px;
     margin: 1% auto;
 }
