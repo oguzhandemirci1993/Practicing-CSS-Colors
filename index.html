@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> 
-        <title>Practicing CSS Colors 1</title>
+        <title>Practicing CSS Colors</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>CSS Colors Practicing Page 1</h1>
+        <h1>CSS Colors Practicing Page</h1>
         <section>
             <h2>Primary Colors - Black Background</h2>
             <div class="background-1">
@@ -18,7 +18,8 @@
         </section>
     <section>
         <h2>Secondary Colors - White Background</h2>
-        <div class="background-2">
+        <div class="background-2"> 
+             <!--The reason why do we have white background is aligning.-->
             <div class="ribbon yellow"><p><strong>Yellow</strong></p></div>
             <div class="ribbon cyan"><p><strong>Cyan</strong></p></div>
             <div class="ribbon magenta"><p><strong>Magenta</strong></p></div>
@@ -55,9 +56,44 @@
         </div>
     </section>
     <section>
-        <h2>Gradient with Border, Box Shadow and Opacity</h2>
-        <div class="border-shadow-opacity">
-            <div class="ribbon blue2"></div>
+        <!--The order of the div nesting (parent div, child div) and div classes that have been applied are important.-->
+        <h2>Gradients with Opacity, Border and Box Shadow</h2>
+        <div class="blue2 blue2-text">Default Blue Gradient</div>
+        <div class="blue2 blue2-text opacity">Gradient Opacity</div>
+        <div class="blue2">
+            <div class="opacity"></div>
+        </div>
+        <div class="blue2">
+            <div class="opacity-border"></div>
+        </div>
+        <div class="blue2">
+            <div class="stripe1"></div><div class="stripe2"></div><div class="stripe3"></div><div class="stripe4"></div><div class="stripe5"></div>
+         </div>  
+         <!--Child divs should be written next to each other instead of writing them at different 
+         lines because inline-blocks will have whitespace between them as default in order to get this requested result.-->
+         <!--
+            Writing like this will cause stripe5 appear shorter than other 4 stripes. We will stay away from that.
+            <div class="stripe1"></div>
+            <div class="stripe2"></div>
+            <div class="stripe3"></div>
+            <div class="stripe4"></div>
+            <div class="stripe5"></div> 
+        -->
+        <div class="blue2">
+            <div class="opacity-border2"></div>
+        </div>
+        <div class="blue2">
+            <div class="opacity-border3"></div>
+        </div>
+        <div class="blue2">
+            <div class="opacity-border4"></div>
+        </div>
+        <div class="blue2">
+            <div class="opacity-border-boxshadow"></div>
+        </div>
+        <div class="blue2 boxshadow">
+            <div class="opacity-border"></div>
+
         </div>
     </section>
     <footer class="footer-styling">
