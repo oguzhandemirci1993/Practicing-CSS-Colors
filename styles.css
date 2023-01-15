@@ -267,11 +267,11 @@ h2 {
     border-right-style:solid;
     border-color: #f5ff12;
     /* box-shadow: offsetX offsetY blurRadius spreadRadius color; */
-    box-shadow: 0px 0px 5px 5px blue;
+    box-shadow: 0px 0px 5px 3px yellow;
 }
 
 .boxshadow {
-    box-shadow: 0px 0px 10px 5px blue;
+    box-shadow: 0px 0px 5px 3px blue;
 }
 
 .footer-styling {
@@ -287,7 +287,7 @@ h2 {
 
 .footer-styling p{
     font-size: 14px;
-    margin:3px auto;
+    margin: 3px 475px;
 }
 
 a {
