@@ -274,33 +274,38 @@ h2 {
     box-shadow: 0px 0px 5px 3px blue;
 }
 
-.footer-styling {
-    text-align:center;
-    font-family: Georgia, Helvetica;
-}
-
-.footer-styling h3{
-    font-size: 18px;
-    margin-top:1%;
-    margin-bottom: 1%;
-}
-
-.footer-styling p{
-    font-size: 14px;
-    margin: 3px 475px;
-}
-
-a {
+.footer p{
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: Georgia, Calibri;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    margin: 0.5rem auto;
+    padding-bottom:0.5rem;
+  }
+  
+  .footer h3{
+    font-size: 1rem;
+    text-align: center;
+    font-family: Georgia, Calibri;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    margin: 0.5rem auto;
+  }
+  
+  a {
     color:darkgreen;
 }
 
 a:visited {
     color:lightseagreen;
+    /*FreeCodeCamp link is not working with this code for some reason.*/
 }
 
 a:hover {
     color:lightseagreen;
-    ;
 }
 
 a:active {
