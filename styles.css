@@ -43,6 +43,11 @@ h2 {
     height: 25px;
     width: 200px;
     margin: 10px auto;
+    /* We can include this code snippet if we want to center the text vertically.
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    */
 }
 
 .red {
